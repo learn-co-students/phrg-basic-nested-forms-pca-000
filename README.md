@@ -153,7 +153,7 @@ class PeopleController < ApplicationController
     person = Person.create(person_params)
     redirect_to people_path
   end
-  
+
   def index
     @people = Person.all
   end
@@ -208,12 +208,10 @@ This looks up existing artists by name. If no matching artist is found, one is c
 
 Note that `accepts_nested_attributes_for` and setter methods (e.g., `artist_attributes=`) aren't necessarily mutually exclusive. It's important to evaluate the needs of your specific use case and choose the approach that makes the most sense. Keep in mind, too, that setter methods are useful for more than just avoiding duplicates –– that's just one domain where they come in handy.
 
-## Video Review 
+## Video Review
 
 * [Nested Forms](https://www.youtube.com/watch?v=zZn0xWry6TE)
 
 ## Does this need an update?
-Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-basic-nested-forms/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-basic-nested-forms/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/basic-nested-forms'>Basic Nested Forms</a> on Learn.co and start learning to code for free.</p>
-<p data-visibility='hidden'>PHRG Basic Nested Forms</p>
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-basic-nested-forms/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-basic-nested-forms/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.

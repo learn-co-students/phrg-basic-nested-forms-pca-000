@@ -1,9 +1,0 @@
-tags:
-  - nested forms
-  - nested params
-  - attributes=
-  - accepts_nested_attributes_for
-languages:
-  - ruby
-resources: 0
-parent_template: git@github.com:learn-co-curriculum/basic-nested-forms.git
